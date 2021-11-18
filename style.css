@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   text-align: center;
+   width: 100%;
+}
+
+.form {
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    width: 650px;
+    text-align: center;
+    box-shadow: 0px 0px 4px black;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.camp input, .salvar {
+    box-shadow: 0px 0px 4px rgb(0, 0, 0);
+    padding: 10px;
+    width: 320px;
+    border-radius: 20px;
+    border: none;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+.salvar {
+    width: 250px;
+}
